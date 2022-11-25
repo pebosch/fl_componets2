@@ -1,3 +1,4 @@
+import 'package:fl_components/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 class Listview2Screen extends StatelessWidget {
@@ -23,8 +24,10 @@ class Listview2Screen extends StatelessWidget {
                   trailing: const Icon(Icons.arrow_forward_ios_outlined),
                   title: Text(options[index]),
                   onTap: () {
-                    final casa = options[index];
-                    print(casa);
+                    final casa = MaterialPageRoute(
+                        builder: (context) => const TargaryenScreen());
+                    Navigator.push(context, casa);
+                    //print(casa);
                   },
                 ),
             separatorBuilder: (context, index) => const Divider(),
