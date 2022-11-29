@@ -6,3 +6,5 @@ export 'package:fl_components/screens/listview2_screen.dart';
 export 'package:fl_components/screens/targaryen_screen.dart';
 export 'package:fl_components/screens/mensajesalerta_screen.dart';
 export 'package:fl_components/screens/avatar_screen.dart';
+export 'package:fl_components/screens/inputs_screen.dart';
+export 'package:fl_components/screens/animated_screen.dart';
