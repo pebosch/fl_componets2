@@ -21,11 +21,11 @@ class AppRoutes {
         icon: Icons.list,
         name: 'Listview tipo 2',
         screen: const Listview2Screen()),
-    MenuOption(
+    /*MenuOption(
         route: 'alert',
         icon: Icons.add_alert_outlined,
         name: 'Home Screen',
-        screen: const AlertScreen()),
+        screen: const AlertScreen()),*/
     MenuOption(
         route: 'card',
         icon: Icons.credit_card,
@@ -51,6 +51,11 @@ class AppRoutes {
         icon: Icons.input_rounded,
         name: 'Forms: Inputs',
         screen: const InputsScreen()),
+    MenuOption(
+        route: 'slider',
+        icon: Icons.slow_motion_video,
+        name: 'Sliders & Checks',
+        screen: const SliderScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
